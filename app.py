@@ -3,8 +3,8 @@ from flask import Flask, request
 from pymessenger.bot import Bot
 
 app = Flask(__name__)       # Initializing our Flask application
-ACCESS_TOKEN = 'EAAKiqZCkwJ5UBAE97K4nAN4pKqNONn717O204VrwPVgLRMt8NhZBGEA2AO6koJ4yq2UDPMSDRBhCyeD95024v4jPqahLOfWUoucXMyZAwyJk0ziXx7K3XeQ9Iw0WEJYxFBW1fiZBgtcc6HPUZBwTNikE1PKbJRXhk1ZAd6JAMNlosPoUvmnSgnY8syFPzfGoASFDERfqTxxwZDZD'
-VERIFY_TOKEN = 'EAAE93iozFVoBAIIlt3mYLZAlTeZCZAUEtt3NOPvmqjZC3ldJl9fLjy1HtDF6pDCdyLmQ4jKDvAywJdqZCIgixSJHKgf9QiiZBcSdyOqJ179Maln4xgIeN5ulTkRF1k06XYho5w8ZAZA8L4eQ4IxVNvHo4rMZCINuT2yUGrVK0vrOXGrDp3ZCCK6jlr'
+ACCESS_TOKEN = ''
+VERIFY_TOKEN = ''
 bot = Bot(ACCESS_TOKEN)
 
 # Importing standard route and two requst types: GET and POST.
